@@ -6,7 +6,6 @@ class Journal:
     def __init__(self):
         self.file = "journal.txt"
 
-    # Add entry
     def add_entry(self):
         entry = input("Write your journal: ")
 
@@ -22,7 +21,6 @@ class Journal:
         except:
             print("Something went wrong while saving.")
 
-    # View entries
     def view_entry(self):
         try:
             f = open(self.file, "r")
@@ -38,7 +36,7 @@ class Journal:
         except FileNotFoundError:
             print("No journal found. Add an entry first.")
 
-    # Search entry
+  
     def search_entry(self):
         keyword = input("Enter word to search: ")
 
@@ -60,7 +58,6 @@ class Journal:
         except FileNotFoundError:
             print("Journal file not found.")
 
-    # Delete entries
     def delete_entry(self):
         confirm = input("Do you want to delete all entries? (yes/no): ")
 
@@ -77,7 +74,7 @@ class Journal:
         else:
             print("Delete cancelled.")
 
-    # Main menu
+    
     def menu(self):
 
         while True:
@@ -110,10 +107,10 @@ class Journal:
                 print("Invalid choice. Try again.")
 
 
-# Create object
+
 obj = Journal()
 
-# Start program
+
 obj.menu()
 
 
