@@ -28,7 +28,7 @@ A simple Python project to manage daily journal entries.
 
 6.DateTime Module
 
-##here output of pr 6
+## here output of pr 6
 1.<img width="1881" height="962" alt="Screenshot 2026-11-26 111551" src="https://github.com/user-attachments/assets/f3e06d62-db21-4c24-a88a-c247796e8f0a" />
 2.<img width="1422" height="431" alt="Screenshot 2026-11-26 111734" src="https://github.com/user-attachments/assets/92eb58f9-2e7d-4d4c-bcc2-914cdc093306" />
 
