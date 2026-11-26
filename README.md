@@ -1,8 +1,8 @@
-#Personal Journal Manager
+Personal Journal Manager
 
 A simple Python project to manage daily journal entries.
 
-##Features
+Features
 
 1.Add new journal entries with date and time.
 
@@ -14,7 +14,7 @@ A simple Python project to manage daily journal entries.
 
 5.Simple menu-based program.
 
-#Concepts Used
+Concepts Used
 
 1.Python Classes and Objects
 
