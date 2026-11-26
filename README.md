@@ -1,4 +1,4 @@
-Personal Journal Manager
+# Personal Journal Manager
 
 A simple Python project to manage daily journal entries.
 
